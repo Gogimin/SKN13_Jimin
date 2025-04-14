@@ -1,6 +1,7 @@
 from re import U
 import streamlit as st
 
+
 """
 # Streamlit 개요
 - Streamlit은 데이터 분석 결과, 머신러닝 모델 결과등을 빠르게 웹 애플리케이션으로 만들 수 있게 하는 파이썬 라이브러리 이다.
@@ -42,6 +43,8 @@ st.subheader('이것은 subheader 입니다 :100:')
 # 일반 텍스트 입력
 st.text('일반 텍스트입니다. 👌👌')
 st.text(10)
+st.text("모든 타입을 다 넣을수있음")
+st.text(True)
 
 # 캡션  입력
 st.caption('이것은 캡션입니다.:rainbow:')
@@ -75,6 +78,10 @@ st.latex('\sqrt{x^2+y^2}=1')
 # HTML 출력
 st.html("<b>볼드체로 출력합니다.</b>")
 st.html("<a href='https://www.naver.com'>네이버</a>")
+
+# import streamlit.components.v1 as components
+# components.html("<b>볼드체로 출력합니다.</b>")
+# components.html("<a href='https://www.naver.com'>네이버</a>")
 
 ####################################
 # st.write() 함수
